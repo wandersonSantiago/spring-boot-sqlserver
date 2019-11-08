@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=dataBase
+    username: username
+    password: password
+    dbcp2:
+      driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: false   
+    hibernate:
+      ddl-auto: validate

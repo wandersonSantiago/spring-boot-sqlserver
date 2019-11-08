@@ -1,0 +1,7 @@
+server:
+  port: 8080
+spring:  datasource:    url: jdbc:sqlserver://localhost:1433;databaseName=teste
+    username: wanderson
+    password: 
+    dbcp2:      driver: com.microsoft.sqlserver.jdbc.SQLServerDriver  jpa:    show-sql: true   
+    hibernate:      ddl-auto: create   
